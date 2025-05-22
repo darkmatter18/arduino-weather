@@ -1,4 +1,4 @@
-FROM node:21-alpine as build
+FROM node:22-alpine as build
 ARG REACT_APP_PROD_BASE_API
 ENV REACT_APP_PROD_BASE_API $REACT_APP_PROD_BASE_API
 WORKDIR /app
